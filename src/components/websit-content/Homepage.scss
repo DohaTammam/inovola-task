@@ -1,0 +1,157 @@
+section{
+    margin-top:80px ;
+}
+img{
+    width: 100%;
+}
+.explore-apps{
+    text-align: center;
+    h2{
+        color:#835D9D;
+        font-weight: 600;
+        font-size: 45px;
+    }
+    p{
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 22px;
+        width: 620px;
+    }
+    .explore-apps-btn{
+        background-color: #835D9D;
+        color: #f7ae41;
+        font-size: 23px;
+        font-weight: 700;
+        padding: 15px 50px;
+        width: 28%;
+        border-radius: 10px;
+    }
+    .explore-apps-btn:hover{
+        color: #fff;
+    }
+}
+.explore-demo{
+    position: relative ;
+    text-align: center;
+    .pattern{
+        width: 9%;
+        margin: 0 auto;
+        position: absolute;
+        left:260px;
+        top:-70px;
+    }
+    .explore-demo-content{
+        position: absolute;
+        width: 60%;
+        height: 80vh;
+        left: 320px;
+        top:-25px;
+        .demo{
+            height: 100%;
+            border-radius: 50px;
+        }
+    }
+    .ellipse{
+        position: absolute;
+        left:990px;
+        top: 310px;
+        width:26%;
+    }
+}
+.app-growth{
+    justify-content: space-between;
+    padding-right: 40px;
+    .app-growth-demo{
+        position: relative;
+        width: 65%;
+        .app-growth-pattern{
+            position: absolute;
+            width:21%;
+            top:-52px;
+            left: 1px;
+        }
+        .app-growth-ellipse{
+            position: absolute;
+            left: 600px;
+            top:220px;
+        }
+        .app-growth-demo-content{
+            position: absolute;
+            width: 73%;
+            height: 60vh;
+            left:60px;
+            .demo{
+                border-radius: 25px;
+                height: 100%;
+            }
+        }
+    }
+    .app-growth-content{
+        direction: rtl;
+        width: 35%;
+        .app-growthData{
+            font-size: 19px;
+            font-weight: 500;
+            width: 41rem;
+            margin: 2rem 0;
+        }
+        h4{
+            color:#835D9D;
+        }
+        .explore-apps-btn{
+            background-color: #835D9D;
+            color: #f7ae41;
+            font-size: 25px;
+            font-weight: 700;
+            padding: 15px 50px;
+            border-radius: 10px;
+        }
+        .app-growth-content-wrapper{
+            .app-growth-img{
+                width: 18%;
+            }
+            p{
+                margin-top: 10px ;
+            }
+        }
+    }
+}
+.feedback{
+    .feedback-title{
+        text-align: center;
+    }
+    .feedback-items{
+        display: flex;
+        gap:20px;
+        margin: 0 60px;
+        width: 95%;
+        .feedback-items-wrapper{
+            direction: rtl;
+            background-color: #F7F7F7;
+            padding:30px 20px;
+            border-radius: 25px;
+            width:100%;
+            .feedback-items-img{
+                width:20%;
+                margin-left: 14px;
+            }
+            .feedback-items-data{
+                flex-direction: column;
+                width: 80%;
+                h5{
+                    color:#835D9D;
+                    font-weight: 600;
+                }
+                .rate{
+                    width:15%;
+                }
+                .feedback-items-data-wrapper{
+                    width: 100%;
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
